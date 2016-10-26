@@ -16,5 +16,6 @@ class Action_Message extends Message {
     print $this->get_message();
   }
 }
+
 $message = new Action_Message( 'Hello world!' );
 $message->show_message();

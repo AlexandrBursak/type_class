@@ -1,8 +1,10 @@
 <?php
-interface Message {
+interface show_smth {
+  function show_message();
+}
+interface Message extends show_smth {
   function get_message();
   function set_message( $message );
-  function show_message();
 }
 
 class Messages implements Message

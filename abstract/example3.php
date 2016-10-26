@@ -1,7 +1,7 @@
 <?php
 abstract class Message {
   protected $message;
-  abstract function show_message( $message );
+  abstract public function show_message( $message );
 }
 class Action_Message extends Message {
   function __construct( $message ) {

@@ -10,7 +10,8 @@ trait World {
   }
 }
 class MyHelloWorld {
-  use Hello, World;
+  use Hello;
+  use World;
   public function sayExclamationMark() {
     echo '!';
   }

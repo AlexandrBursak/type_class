@@ -11,4 +11,4 @@ class Message {
 echo Message::show_message( 'Hello world!' );
 // or
 $class_name = 'Message';
-echo $class_name::show_message( 'Hello world!' );
+echo $class_name::show_message( 'Hello 1' );
